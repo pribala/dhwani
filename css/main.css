@@ -48,3 +48,18 @@ body {
 .btn-position {
 	margin-right: 10px;
 }
+
+.item-list {
+	font-size: 18px;
+	line-height: 35px;
+}
+
+.item-content {
+	font-size: 28px;
+	letter-spacing: 18px;
+}
+
+.audio-btn {
+	background-color: #17C2BC;
+	color: #01008A; 
+}
