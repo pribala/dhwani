@@ -18,7 +18,7 @@
 			</div>	
 		</header>
 		<nav class="navbar navbar-dark bg-inverse">
-			<a class="navbar-brand" href="#"><img id="logo" src=""></a>
+			<a class="navbar-brand" href="#"><img class="logo" src="static/clef.png"></a>
 			<ul class="nav navbar-nav">
 				<li class="nav-item active">
 					<a class="nav-link" href="#">Varisais <span class="sr-only">(current)</span></a>
@@ -33,9 +33,11 @@
 					<a class="nav-link" href="#">Bhajans </a>
 				</li>
 			</ul>
-			<form class="form-inline pull-xs-right">
-				<input class="form-control" type="text" placeholder="Search">
-				<button class="btn btn-warning-outline" type="submit">Search</button>
+			<form class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<input class="form-control" type="text" placeholder="Search">
+				</div>
+				<button class="btn btn-warning-outline btn-position" type="submit">Search</button>
 			</form>
 		</nav>
 		<div class="container">
