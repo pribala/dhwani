@@ -1,4 +1,39 @@
 .container {
-	width: 50%;
+	width: 80%;
 	border: 1px solid black;
+	font-size: 30px;
+	margin-top: 50px;
+	padding: 30px;
 }
+
+.main-header {
+	background-color: #F1E05A;
+}
+
+.list-container {
+	background: #CBE6A3;
+	border: 1px solid #999;
+	border-radius: 3px;
+	line-height: 35px;
+	padding: 20px 10px 20px 20px;
+	text-align: left;
+	width: 30%;
+	color: #01008A;
+}	
+
+.list-item {
+		font-size: 20px;
+}
+
+.container-frame {
+	
+}
+
+h1 {
+	color:#01008A;
+}
+
+body {
+	color: #E42B4E;
+}
+ 
