@@ -80,3 +80,26 @@ body {
 	font-size: 20px;
 	color: #E42B4E;
 }
+
+audio {
+	-moz-box-shadow: 2px 2px 4px 0px #006773;
+	-webkit-box-shadow:  2px 2px 4px 0px #006773;
+	box-shadow: 2px 2px 4px 0px #006773;
+	-moz-border-radius:7px 7px 7px 7px;
+	-webkit-border-radius:7px 7px 7px 7px;
+	border-radius:7px 7px 7px 7px;
+	margin: 20px 0 0 0;
+}
+
+audio:hover, audio:focus, audio:active {
+	-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.card-content {
+	border-left: 1px solid;
+}

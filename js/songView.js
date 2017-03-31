@@ -4,6 +4,7 @@
 var Song = function(data) {
 	this.title = ko.observable(data.title);
 	this.lines = ko.observableArray(data.lines);
+	this.audioSrc = ko.observable(data.audioSrc);
 };
 
 var Geetham = function(data) {

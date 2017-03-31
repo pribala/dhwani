@@ -72,8 +72,11 @@
 						<p class="item-content" data-bind="text: $data"></li>
 						</div>
 					</p>
-					</div>
-					<a href="#" class="btn btn-primary audio-btn">Listen</a>
+					</div class="audio-btn">
+						<audio controls preload="metadata">
+							<source src="" type="audio/Wav" data-bind="attr: {src: audioSrc}">
+							Your browser does not support the audio element.
+						</audio>
 					</div>
 					</div>
 				</div>
