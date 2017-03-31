@@ -5,7 +5,7 @@ var saraliVarisais = [
 		{title: 'Varisai 1', lines: ['s r g m | p d | n S ||', 'S n d p | m g | r s ||']},
 		{title: 'Varisai 2', lines: ['s r - s r - | s r | g m ||', 's r g m | p d | n S ||',	
 		'S n - S n - | S n | d p ||', 'S n d p | m g | r s ||']},
-		{title: 'Varisai 3', lines: ['s   r   g -  s   |   r   g - |   s   r   ||', 's   r   g   m   |   p   d   |   n   S   ||',
+		{title: 'Varisai 3', lines: ['s r g - s | r g - | s r ||', 's r g m | p d | n S ||',
 		'S   n   d - s   |   n   d - |   s   n   ||', 'S   n   d   p   |   m   g   |   r   s   ||']},
 		{title: 'Varisai 4', lines: ['s   r   g   m - |   s   r   |   g   m - ||', 's   r   g   m   |   p   d   |   n   s   ||',
 		'S   n   d   p - |   S   n   |   d   p - ||', 'S   n   d   p   |   m   g   |   r   s   ||']},
@@ -33,5 +33,5 @@ var saraliVarisais = [
 	
 var geethams = [
 	{title: 'Lambodhara Lakumikara', fileSrc: 'lambodara.html'},
-	{title: 'Mandara (kundagowra)', fileSrc: ''},
+	{title: 'Mandara (kundagowra)', fileSrc: 'mandara.html'},
 ];	
