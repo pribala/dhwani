@@ -30,3 +30,8 @@ var saraliVarisais = [
 		{title: 'Varisai 14', lines: ['s   r   g   m   |   p   ,   |   p   ,   ||', 'd   d   p   ,   |   m   m   |   p   ,   ||',
 		'd   n   S   ,   |   S   n   |   d   p   ||', 'S   n   d   p   |   m   g   |   r   s   ||']},
 	];
+	
+var geethams = [
+	{title: 'Lambodhara Lakumikara', fileSrc: 'lambodara.html'},
+	{title: 'Mandara (kundagowra)', fileSrc: ''},
+];	

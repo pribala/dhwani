@@ -6,6 +6,11 @@ var Song = function(data) {
 	this.lines = ko.observableArray(data.lines);
 };
 
+var Geetham = function(data) {
+	this.title = ko.observable(data.title);
+	this.fileSrc = ko.observable(data.fileSrc);
+};
+
 // View Model
 
 var ViewModel = function(){
@@ -18,6 +23,13 @@ var ViewModel = function(){
 	this.setSelectedSong = function(currentsong) {
 		self.currentSong(currentsong);
 	};
-	
+	this.geethamList = ko.observableArray([]);
+	geethams.forEach(function(geetham) {
+		self.geethamList.push(new Geetham(geetham));
+	});
+	this.currentGeetham = ko.observable(this.geethamList()[0]);
+	this.setSelectedGeetham = function(currentgeetham) {
+		self.currentGeetham(currentgeetham);
+	};
 }
 ko.applyBindings(new ViewModel());
