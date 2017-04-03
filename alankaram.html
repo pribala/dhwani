@@ -54,11 +54,11 @@
 				<div class="card">
 					<img class="card-img-top" src="#" alt="Card image cap">
 					<div class="card-block">
-					<h3 class="card-title">Geetham</h3>
+					<h3 class="card-title">Alankaram</h3>
 					<p class="card-text">
 						<div id="song-list">
-						<ul class="item-list" data-bind="foreach: geethamList">
-							<li data-bind="click: $parent.setSelectedGeetham,text: title"></li>
+						<ul class="item-list" data-bind="">
+							<li class="song-list-item" data-bind=""></li>
 						</ul>
 						</div>	
 					</p>
@@ -66,17 +66,21 @@
 				</div>
 			</div>
 			<div class="col-sm-8">
-				<div data-bind="with: currentGeetham">
+				<div data-bind="">
 					<div class="card">
 					<img class="card-img-top" src="#" alt="Card image cap">
 					<div class="card-block">
-					<h3 class="card-title" data-bind="text: title"></h3>
+					<h3 class="card-title" data-bind=""></h3>
 					<p id="song-text" class="card-text item-content">
-						<iframe class="song-window" src="" alt="cute cat" data-bind="attr: {src: fileSrc}"></iframe>
+						<div data-bind="">
+						<p class="item-content" data-bind="">
+						</div>
 					</p>
-					</div>
-					<a href="#" class="btn btn-primary audio-btn">Listen</a>
-					<a href="#" class="btn btn-primary audio-btn">Print</a>
+					</div class="audio-btn">
+						<audio controls preload="metadata">
+							<source src="" type="audio/WAV">
+							Your browser does not support the audio element.
+						</audio>
 					</div>
 					</div>
 				</div>
