@@ -12,6 +12,12 @@ var Geetham = function(data) {
 	this.fileSrc = ko.observable(data.fileSrc);
 };
 
+var Video = function(data) {
+	this.title = ko.observable(data.title);
+	this.videoSrc = ko.observable(data.videoSrc);
+};
+
+
 // View Model
 
 var ViewModel = function(){
@@ -32,5 +38,17 @@ var ViewModel = function(){
 	this.setSelectedGeetham = function(currentgeetham) {
 		self.currentGeetham(currentgeetham);
 	};
-}
+	this.videosList = ko.observableArray([]);
+	videos.forEach(function(video) {
+		self.videosList.push(new Video(video));
+	});
+	this.currentVideo = ko.observable(this.videosList()[0]);
+	this.setSelectedVideo = function(currentvideo) {
+		self.currentVideo(currentvideo);
+	};
+	this.removeSrc = function() {
+		$("#video-window").attr('src', '');
+	};
+};
+
 ko.applyBindings(new ViewModel());

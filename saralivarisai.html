@@ -34,6 +34,9 @@
 				<li class="nav-item">
 					<a class="nav-link" href="#">Videos</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Printables</a>
+				</li>
 			</ul>
 			<form class="navbar-form navbar-right" role="search">
 				<div class="form-group">
@@ -52,7 +55,7 @@
 					<p class="card-text">
 						<div id="song-list">
 						<ul class="item-list" data-bind="foreach: songList">
-							<li data-bind="click: $parent.setSelectedSong,text: title"></li>
+							<li class="song-list-item" data-bind="click: $parent.setSelectedSong,text: title"></li>
 						</ul>
 						</div>	
 					</p>
@@ -66,15 +69,13 @@
 					<div class="card-block">
 					<h3 class="card-title" data-bind="text: title"></h3>
 					<p id="song-text" class="card-text item-content">
-						<!--<p class="item-content" data-bind="text: line1"></p>
-						<p class="item-content" data-bind="text: line2"></p>-->
 						<div data-bind="foreach: lines">
-						<p class="item-content" data-bind="text: $data"></li>
+						<p class="item-content" data-bind="text: $data">
 						</div>
 					</p>
 					</div class="audio-btn">
 						<audio controls preload="metadata">
-							<source src="" type="audio/Wav" data-bind="attr: {src: audioSrc}">
+							<source src="" type="audio/WAV" data-bind="attr: {src: audioSrc}">
 							Your browser does not support the audio element.
 						</audio>
 					</div>

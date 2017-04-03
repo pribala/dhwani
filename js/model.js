@@ -35,3 +35,8 @@ var geethams = [
 	{title: 'Lambodhara Lakumikara', fileSrc: 'lambodara.html'},
 	{title: 'Mandara (kundagowra)', fileSrc: 'mandara.html'},
 ];	
+
+var videos = [
+	{title: 'Paluke Bangaramayena', videoSrc: 'https://www.youtube.com/embed/cmU08XHWnks'},
+	{title: 'Sri Ramachandra Kripalu', videoSrc: 'https://www.youtube.com/embed/MyNSOu-Fl-k?autoplay=1&html5=1'}
+];

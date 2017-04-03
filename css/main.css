@@ -103,3 +103,7 @@ audio:hover, audio:focus, audio:active {
 .card-content {
 	border-left: 1px solid;
 }
+
+.song-list-item {
+	  cursor: pointer;
+}
