@@ -2,7 +2,7 @@
 
 // Defining an array of objects with song info.
 var saraliVarisais = [
-		{title: 'Varisai 1', lines: ['s r g m | p d | n S ||', 'S n d p | m g | r s ||'], audioSrc: "static/varisai1.wav"},
+		{title: 'Varisai 1', lines: ['s r g m | p d | n S ||', 'S n d p | m g | r s ||'], audioSrc: "static/sarali1.wav"},
 		{title: 'Varisai 2', lines: ['s r - s r - | s r | g m ||', 's r g m | p d | n S ||',	
 		'S n - S n - | S n | d p ||', 'S n d p | m g | r s ||'], audioSrc: "static/varisai2.wav"},
 		{title: 'Varisai 3', lines: ['s r g - s | r g - | s r ||', 's r g m | p d | n S ||',
