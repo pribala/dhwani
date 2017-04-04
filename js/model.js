@@ -47,3 +47,15 @@ var videos = [
 	{title: 'Seetha Kalyana Vaibhogame', videoSrc: 'https://www.youtube.com/embed/lBVRsXXDJA0'},
 	{title: 'Ye Theruga Nanu Dayachusedavo', videoSrc: 'https://www.youtube.com/embed/2EUysga8pMQ'},
 ];
+
+var bhajans = [
+	{title: 'Paluke Bangaramayena', fileSrc: 'static/paluke.pdf'},
+	{title: 'Sri Ramachandra Kripalu', fileSrc: 'static/shriram.pdf'},
+	{title: 'Bhaja Govindam', fileSrc: 'static/bhajagovindam.pdf'},
+	{title: 'Hari Hari Rama Naama', fileSrc: 'static/harihari.pdf'},
+	{title: 'Govardhana Giridhari', fileSrc: 'static/govardhana.pdf'},
+	{title: 'Bhagyada Lakshmi Baramma', fileSrc: 'static/bhagyadalakshmi.pdf'},
+	{title: 'Shree Kamakshi', fileSrc: 'static/shreekamakshi.pdf'},
+	{title: 'Seetha Kalyana Vaibhogame', fileSrc: 'static/seethakalyana.pdf'},
+	{title: 'Ye Theruga Nanu Dayachusedavo', fileSrc: 'static/yetheruga.pdf'},
+];

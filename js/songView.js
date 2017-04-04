@@ -12,6 +12,11 @@ var Geetham = function(data) {
 	this.fileSrc = ko.observable(data.fileSrc);
 };
 
+var Bhajan = function(data) {
+	this.title = ko.observable(data.title);
+	this.fileSrc = ko.observable(data.fileSrc);
+};
+
 var Video = function(data) {
 	this.title = ko.observable(data.title);
 	this.videoSrc = ko.observable(data.videoSrc);
@@ -48,6 +53,14 @@ var ViewModel = function(){
 	};
 	this.removeSrc = function() {
 		$("#video-window").attr('src', '');
+	};
+	this.bhajanList = ko.observableArray([]);
+	bhajans.forEach(function(bhajan) {
+		self.bhajanList.push(new Bhajan(bhajan));
+	});
+	this.currentBhajan = ko.observable(this.bhajanList()[0]);
+	this.setSelectedBhajan = function(currentbhajan) {
+		self.currentBhajan(currentbhajan);
 	};
 };
 

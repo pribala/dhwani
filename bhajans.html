@@ -5,7 +5,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<title>Dhwani</title>
@@ -57,8 +56,8 @@
 					<h3 class="card-title">Bhajans</h3>
 					<p class="card-text">
 						<div id="song-list">
-						<ul class="item-list" data-bind="">
-							<li data-bind=""></li>
+						<ul class="item-list" data-bind="foreach: bhajanList">
+							<li data-bind="click: $parent.setSelectedBhajan,text: title"></li>
 						</ul>
 						</div>	
 					</p>
@@ -66,13 +65,13 @@
 				</div>
 			</div>
 			<div class="col-sm-8">
-				<div data-bind="">
+				<div data-bind="with: currentBhajan">
 					<div class="card">
 					<img class="card-img-top" src="#" alt="Card image cap">
 					<div class="card-block">
-					<h3 class="card-title" data-bind=""></h3>
+					<h3 class="card-title" data-bind="text: title"></h3>
 					<p id="song-text" class="card-text item-content">
-						<iframe class="song-window" src="" alt="cute cat" data-bind=""></iframe>
+						<iframe class="song-window" src="" alt="Bhajans" data-bind="attr: {src: fileSrc}"></iframe>
 					</p>
 					</div>
 					<a href="#" class="btn btn-primary audio-btn">Listen</a>
