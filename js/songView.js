@@ -22,6 +22,7 @@ var Bhajan = function(data) {
 var Video = function(data) {
 	this.title = ko.observable(data.title);
 	this.videoSrc = ko.observable(data.videoSrc);
+	this.language = data.language;
 };
 
 

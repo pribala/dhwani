@@ -37,15 +37,16 @@ var geethams = [
 ];	
 
 var videos = [
-	{title: 'Paluke Bangaramayena', videoSrc: 'https://www.youtube.com/embed/cmU08XHWnks'},
-	{title: 'Sri Ramachandra Kripalu', videoSrc: 'https://www.youtube.com/embed/MyNSOu-Fl-k?autoplay=1&html5=1'},
-	{title: 'Bhaja Govindam', videoSrc: 'https://www.youtube.com/embed/PxXrLNiPvNo'},
-	{title: 'Hari Hari Rama Naama', videoSrc: 'https://www.youtube.com/embed/JRF_pMdpZTw'},
-	{title: 'Govardhana Giridhari', videoSrc: ''},
-	{title: 'Bhagyada Lakshmi Baramma', videoSrc: 'https://www.youtube.com/embed/4WhkXpC2iqg'},
-	{title: 'Shri Kamakshi', videoSrc: ''},
-	{title: 'Seetha Kalyana Vaibhogame', videoSrc: 'https://www.youtube.com/embed/lBVRsXXDJA0'},
-	{title: 'Ye Theruga Nanu Dayachusedavo', videoSrc: 'https://www.youtube.com/embed/2EUysga8pMQ'},
+	{title: 'Paluke Bangaramayena', videoSrc: 'https://www.youtube.com/embed/cmU08XHWnks', language: 'Telugu'},
+	{title: 'Sri Ramachandra Kripalu', videoSrc: 'https://www.youtube.com/embed/MyNSOu-Fl-k?autoplay=1&html5=1', language: 'Sanskrit'},
+	{title: 'Bhaja Govindam', videoSrc: 'https://www.youtube.com/embed/PxXrLNiPvNo?autoplay=1&html5=1', language: 'Sanskrit'},
+	{title: 'Hari Hari Rama Naama', videoSrc: 'https://www.youtube.com/embed/JRF_pMdpZTw?autoplay=1&html5=1', language: 'Telugu'},
+	{title: 'Govardhana Giridhari', videoSrc: '', language: 'Sanskrit'},
+	{title: 'Bhagyada Lakshmi Baramma', videoSrc: 'https://www.youtube.com/embed/4WhkXpC2iqg?autoplay=1&html5=1', language: 'Kannada'},
+	{title: 'Shree Kamakshi', videoSrc: '', language: 'Sanskrit'},
+	{title: 'Seetha Kalyana Vaibhogame', videoSrc: 'https://www.youtube.com/embed/lBVRsXXDJA0?autoplay=1&html5=1', language: 'Tamil'},
+	{title: 'Ye Theruga Nanu Dayachusedavo', videoSrc: 'https://www.youtube.com/embed/2EUysga8pMQ?autoplay=1&html5=1', language: 'Telugu'},
+	{title: 'Darshan Dejo Aaj', videoSrc: '', language: 'Hindi'}
 ];
 
 var bhajans = [

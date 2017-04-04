@@ -107,3 +107,10 @@ audio:hover, audio:focus, audio:active {
 .song-list-item {
 	  cursor: pointer;
 }
+
+select {
+	background-color: #F1E05A;
+	border:  1px solid #01008A;
+	height: 40px;
+	font-size: 18px;
+}
