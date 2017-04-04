@@ -57,8 +57,11 @@
 					<p class="card-text">
 						<div id="song-list">
 						<ul class="item-list" data-bind="foreach: bhajanList">
-							<li data-bind="click: $parent.setSelectedBhajan,text: title"></li>
+							<li data-bind="visible: showBhajan,click: $parent.setSelectedBhajan,text: title"></li>
 						</ul>
+						</div>
+						<div class="item-list">
+							<select data-bind="options: optionList, optionsCaption: 'Filter your search:', value: selectedOption"></select>
 						</div>	
 					</p>
 					</div>

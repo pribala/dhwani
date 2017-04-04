@@ -49,13 +49,15 @@ var videos = [
 ];
 
 var bhajans = [
-	{title: 'Paluke Bangaramayena', fileSrc: 'static/paluke.pdf'},
-	{title: 'Sri Ramachandra Kripalu', fileSrc: 'static/shriram.pdf'},
-	{title: 'Bhaja Govindam', fileSrc: 'static/bhajagovindam.pdf'},
-	{title: 'Hari Hari Rama Naama', fileSrc: 'static/harihari.pdf'},
-	{title: 'Govardhana Giridhari', fileSrc: 'static/govardhana.pdf'},
-	{title: 'Bhagyada Lakshmi Baramma', fileSrc: 'static/bhagyadalakshmi.pdf'},
-	{title: 'Shree Kamakshi', fileSrc: 'static/shreekamakshi.pdf'},
-	{title: 'Seetha Kalyana Vaibhogame', fileSrc: 'static/seethakalyana.pdf'},
-	{title: 'Ye Theruga Nanu Dayachusedavo', fileSrc: 'static/yetheruga.pdf'},
+	{title: 'Paluke Bangaramayena', fileSrc: 'static/paluke.pdf', language: 'Telugu'},
+	{title: 'Sri Ramachandra Kripalu', fileSrc: 'static/shriram.pdf', language: 'Sanskrit'},
+	{title: 'Bhaja Govindam', fileSrc: 'static/bhajagovindam.pdf', language: 'Sanskrit'},
+	{title: 'Hari Hari Rama Naama', fileSrc: 'static/harihari.pdf', language: 'Telugu'},
+	{title: 'Govardhana Giridhari', fileSrc: 'static/govardhana.pdf', language: 'Sanskrit'},
+	{title: 'Bhagyada Lakshmi Baramma', fileSrc: 'static/bhagyadalakshmi.pdf', language: 'Kannada'},
+	{title: 'Shree Kamakshi', fileSrc: 'static/shreekamakshi.pdf', language: 'Sanskrit'},
+	{title: 'Seetha Kalyana Vaibhogame', fileSrc: 'static/seethakalyana.pdf', language: 'Tamil'},
+	{title: 'Ye Theruga Nanu Dayachusedavo', fileSrc: 'static/yetheruga.pdf', language: 'Telugu'},
 ];
+
+filters = ['None', 'Tamil', 'Hindi', 'Telugu', 'Kannada', 'Sanskrit'];
