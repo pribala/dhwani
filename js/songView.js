@@ -3,25 +3,27 @@
 // Song constructor to create a song object for the list view.
 var Song = function(data) {
 	this.title = ko.observable(data.title);
-	this.lines = ko.observableArray(data.lines);
-	this.audioSrc = ko.observable(data.audioSrc);
+	this.lines = data.lines;
+	this.audioSrc = data.audioSrc;
 };
 
 var Geetham = function(data) {
 	this.title = ko.observable(data.title);
-	this.fileSrc = ko.observable(data.fileSrc);
+	this.fileSrc = data.fileSrc;
+	this.audioSrc = data.audioSrc;
 };
 
 var Bhajan = function(data) {
 	this.title = ko.observable(data.title);
 	this.fileSrc = data.fileSrc;
 	this.language = data.language;
+	this.audioSrc = data.audioSrc;
 	this.showBhajan = ko.observable(true);
 };
 
 var Video = function(data) {
 	this.title = ko.observable(data.title);
-	this.videoSrc = ko.observable(data.videoSrc);
+	this.videoSrc = data.videoSrc;
 	this.language = data.language;
 };
 

@@ -5,7 +5,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<title>Dhwani</title>
@@ -52,7 +51,6 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<div class="card">
-					<img class="card-img-top" src="#" alt="Card image cap">
 					<div class="card-block">
 					<h3 class="card-title">Sarali Varisai</h3>
 					<p class="card-text">
@@ -68,7 +66,6 @@
 			<div class="col-sm-8">
 				<div data-bind="with: currentSong">
 					<div class="card">
-					<img class="card-img-top" src="#" alt="Card image cap">
 					<div class="card-block">
 					<h3 class="card-title" data-bind="text: title"></h3>
 					<p id="song-text" class="card-text item-content">
@@ -76,7 +73,7 @@
 						<p class="item-content" data-bind="text: $data">
 						</div>
 					</p>
-					</div class="audio-btn">
+					<div>
 						<audio controls preload="metadata">
 							<source src="" type="audio/WAV" data-bind="attr: {src: audioSrc}">
 							Your browser does not support the audio element.

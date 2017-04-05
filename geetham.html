@@ -5,7 +5,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<title>Dhwani</title>
@@ -22,14 +21,14 @@
 				<li class="nav-item">
 					<a class="nav-link" href="index.html">Home</a>
 				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="saralivarisai.html">Swaravali<span class="sr-only">(current)</span></a>
+				<li class="nav-item">
+					<a class="nav-link" href="saralivarisai.html">Swaravali</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="alankaram.html">Alankaram</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="geetham.html">Geetham</a>
+				<li class="nav-item  active">
+					<a class="nav-link" href="geetham.html">Geetham<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="bhajans.html">Bhajans</a>
@@ -52,7 +51,6 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<div class="card">
-					<img class="card-img-top" src="#" alt="Card image cap">
 					<div class="card-block">
 					<h3 class="card-title">Geetham</h3>
 					<p class="card-text">
@@ -68,19 +66,21 @@
 			<div class="col-sm-8">
 				<div data-bind="with: currentGeetham">
 					<div class="card">
-					<img class="card-img-top" src="#" alt="Card image cap">
-					<div class="card-block">
-					<h3 class="card-title" data-bind="text: title"></h3>
-					<p id="song-text" class="card-text item-content">
-						<iframe class="song-window" src="" alt="cute cat" data-bind="attr: {src: fileSrc}"></iframe>
-					</p>
-					</div>
-					<a href="#" class="btn btn-primary audio-btn">Listen</a>
-					<a href="#" class="btn btn-primary audio-btn">Print</a>
-					</div>
+						<div class="card-block">
+							<h3 class="card-title" data-bind="text: title"></h3>
+							<p id="song-text" class="card-text item-content">
+								<iframe class="song-window" src="" alt="Song lyrics" data-bind="attr: {src: fileSrc}"></iframe>
+							</p>
+						</div>
+						<audio controls preload="metadata">
+							<source src="" type="audio/WAV" data-bind="attr: {src: audioSrc}">
+							Your browser does not support the audio element.
+						</audio></br>
+						</br><a href="" data-bind="attr: {href: fileSrc}" class="btn btn-primary audio-btn">Print</a>
 					</div>
 				</div>
-			</div>	
+			</div>
+		</div>	
 	</div>
 	<!-- jQuery first, then Bootstrap JS. -->
 	<script src="js/lib/knockout-3.4.1.js"></script>
