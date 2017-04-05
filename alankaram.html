@@ -55,8 +55,8 @@
 					<h3 class="card-title">Alankaram</h3>
 					<p class="card-text">
 						<div id="song-list">
-						<ul class="item-list" data-bind="">
-							<li class="song-list-item" data-bind=""></li>
+						<ul class="item-list" data-bind="foreach: alankaramList">
+							<li class="song-list-item" data-bind="click: $parent.setSelectedAlankaram,text: title"></li>
 						</ul>
 						</div>	
 					</p>
@@ -64,14 +64,12 @@
 				</div>
 			</div>
 			<div class="col-sm-8">
-				<div data-bind="">
+				<div data-bind="with: currentAlankaram">
 					<div class="card">
 					<div class="card-block">
-					<h3 class="card-title" data-bind=""></h3>
+					<h3 class="card-title" data-bind="text: title"></h3>
 					<p id="song-text" class="card-text item-content">
-						<div data-bind="">
-						<p class="item-content" data-bind="">
-						</div>
+						<iframe class="song-window" src="" alt="Song lyrics" data-bind="attr: {src: fileSrc}"></iframe>
 					</p>
 					</div class="audio-btn">
 						<audio controls preload="metadata">

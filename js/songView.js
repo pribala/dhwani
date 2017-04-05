@@ -27,6 +27,12 @@ var Video = function(data) {
 	this.language = data.language;
 };
 
+var Alankaram = function(data) {
+	this.title = ko.observable(data.title);
+	this.videoSrc = data.videoSrc;
+	this.fileSrc = data.fileSrc;
+};
+
 
 // View Model
 
@@ -86,6 +92,14 @@ var ViewModel = function(){
 			}
 		}
 	});
+	this.alankaramList = ko.observableArray([]);
+	alankarams.forEach(function(alankaram) {
+		self.alankaramList.push(new Alankaram(alankaram));
+	});
+	this.currentAlankaram = ko.observable(this.alankaramList()[0]);
+	this.setSelectedAlankaram = function(currentalankaram) {
+		self.currentAlankaram(currentalankaram);
+	};
 };
 
 ko.applyBindings(new ViewModel());

@@ -32,8 +32,8 @@ var saraliVarisais = [
 	];
 	
 var geethams = [
-	{title: 'Lambodhara Lakumikara', fileSrc: 'lambodara.html', audioSrc: 'lambodara.wav'},
-	{title: 'Mandara (kundagowra)', fileSrc: 'mandara.html', audioSrc: 'mandara.wav'},
+	{title: 'Lambodhara Lakumikara', fileSrc: 'lambodara.html', audioSrc: 'static/lambodara.wav'},
+	{title: 'Mandara (kundagowra)', fileSrc: 'mandara.html', audioSrc: 'static/mandara.wav'},
 ];	
 
 var videos = [
@@ -60,5 +60,18 @@ var bhajans = [
 	{title: 'Seetha Kalyana Vaibhogame', fileSrc: 'static/seethakalyana.pdf', language: 'Tamil', audioSrc:''},
 	{title: 'Ye Theruga Nanu Dayachusedavo', fileSrc: 'static/yetheruga.pdf', language: 'Telugu', audioSrc:''},
 ];
+
+var alankarams = [
+{title: 'Chaturashra Jaati Druva Taalam', fileSrc: 'druva.html', audioSrc: 'static/druva.wav'},
+{title: 'Chaturashra Jaati Matya TaaLam: ', fileSrc: 'matya.html', audioSrc: 'static/matya.wav'},
+{title: 'Chaturashra Jaati Roopaka Taalam:', fileSrc: 'roopaka.html', audioSrc: 'static/roopaka.wav'},
+{title: 'Mishra Jaati Jhampa Taalam: ', fileSrc: 'jhampa.html', audioSrc: 'static/jhampa.wav'},
+{title: 'Tishra Jaati Triputa Taalam', fileSrc: 'triputa.html', audioSrc: 'static/triputa.wav'},
+{title: 'Khanda Jaati Ata Taalam', fileSrc: 'ata.html', audioSrc: 'static/ata.wav'},
+{title: 'Chaturashra Jaati Eka Taalam: ', fileSrc: 'eka.html', audioSrc: 'static/eka.wav'},
+{title: 'Sankeerna Jaati Eka Taalam: Version 1', fileSrc: 'sankeerna1.html', audioSrc: 'static/sankeerna1.wav'},
+{title: 'Sankeerna Jaati Eka Taalam: Version 2', fileSrc: 'sankeerna2.html', audioSrc: 'static/sankeerna2.wav'},
+];
+
 
 filters = ['None', 'Tamil', 'Hindi', 'Telugu', 'Kannada', 'Sanskrit'];
