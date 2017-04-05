@@ -115,3 +115,6 @@ select {
 	font-size: 18px;
 	margin-top: 15px;
 }
+.active {
+	background-color: #00FFFF;
+}
