@@ -143,3 +143,8 @@ select {
 .video-list-item {
 	cursor: pointer;
 }
+
+.title-style {
+	background-color: #FDFC87;
+	padding: 5px;
+}

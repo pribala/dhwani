@@ -62,12 +62,12 @@ var bhajans = [
 
 var alankarams = [
 {title: 'Chaturashra Jaati Druva Taalam', fileSrc: 'druva.html', audioSrc: 'static/druva.wav'},
-{title: 'Chaturashra Jaati Matya TaaLam: ', fileSrc: 'matya.html', audioSrc: 'static/matya.wav'},
-{title: 'Chaturashra Jaati Roopaka Taalam:', fileSrc: 'roopaka.html', audioSrc: 'static/roopaka.wav'},
-{title: 'Mishra Jaati Jhampa Taalam: ', fileSrc: 'jhampa.html', audioSrc: 'static/jhampa.wav'},
+{title: 'Chaturashra Jaati Matya TaaLam', fileSrc: 'matya.html', audioSrc: 'static/matya.wav'},
+{title: 'Chaturashra Jaati Roopaka Taalam', fileSrc: 'roopaka.html', audioSrc: 'static/roopaka.wav'},
+{title: 'Mishra Jaati Jhampa Taalam', fileSrc: 'jhampa.html', audioSrc: 'static/jhampa.wav'},
 {title: 'Tishra Jaati Triputa Taalam', fileSrc: 'triputa.html', audioSrc: 'static/triputa.wav'},
 {title: 'Khanda Jaati Ata Taalam', fileSrc: 'ata.html', audioSrc: 'static/ata.wav'},
-{title: 'Chaturashra Jaati Eka Taalam: ', fileSrc: 'eka.html', audioSrc: 'static/eka.wav'},
+{title: 'Chaturashra Jaati Eka Taalam', fileSrc: 'eka.html', audioSrc: 'static/eka.wav'},
 {title: 'Sankeerna Jaati Eka Taalam: Version 1', fileSrc: 'sankeerna1.html', audioSrc: 'static/sankeerna1.wav'},
 {title: 'Sankeerna Jaati Eka Taalam: Version 2', fileSrc: 'sankeerna2.html', audioSrc: 'static/sankeerna2.wav'},
 ];
