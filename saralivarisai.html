@@ -49,10 +49,10 @@
 		</nav>
 		<div class="container">
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<div class="card">
 					<div class="card-block">
-					<h3 class="card-title">Sarali Varisai</h3>
+					<h3 class="card-title">Swaravali</h3>
 					<p class="card-text">
 						<div id="song-list">
 						<ul class="item-list" data-bind="foreach: songList">
@@ -66,21 +66,25 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-8">
+			<div class="col-sm-9">
 				<div data-bind="with: currentSong">
 					<div class="card">
 					<div class="card-block">
 					<h3 class="card-title" data-bind="text: title"></h3>
-					<p id="song-text" class="card-text item-content">
+					<!--<p id="song-text" class="card-text item-content">
 						<div data-bind="foreach: lines">
 						<p class="item-content" data-bind="text: $data">
 						</div>
+					</p>-->
+					<p id="song-text" class="card-text item-content">
+						<iframe class="song-window" src="" alt="Swaravali" data-bind="attr: {src: fileSrc}"></iframe>
 					</p>
 					<div>
 						<audio controls preload="metadata">
 							<source src="" type="audio/WAV" data-bind="attr: {src: audioSrc}">
 							Your browser does not support the audio element.
-						</audio>
+						</audio></br>
+						</br><a href="static/swaravali.pdf" class="btn btn-primary audio-btn">Print</a>
 					</div>
 					</div>
 				</div>

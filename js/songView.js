@@ -3,8 +3,9 @@
 // Song constructor to create a song object for the list view.
 var Song = function(data) {
 	this.title = ko.observable(data.title);
-	this.lines = data.lines;
+	//this.lines = data.lines;
 	this.audioSrc = data.audioSrc;
+	this.fileSrc = data.fileSrc;
 	this.type = data.type;
 	this.showVarisai = ko.observable(true);
 };
@@ -57,6 +58,7 @@ var ViewModel = function(){
 	this.selectedType = ko.observable(self.varisaiType()[0]);
 	this.subsetVarisai = ko.computed(function() {
 		var varisaiList = self.songList();
+		//$('.card-title').val = 'Varisai';
 		for(var i=0;i<varisaiList.length;i++) {
 			if(self.selectedType() !== varisaiList[i].type){
 				varisaiList[i].showVarisai(false);
