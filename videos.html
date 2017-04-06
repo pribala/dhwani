@@ -50,15 +50,14 @@
 		<div class="container">
 		<div class="row">
 			<div class="col-sm-3">
-				<div class="card">
-					<img class="card-img-top" src="static/music-notes.jpg" alt="Card image cap">
+				<div class="card  video-list-container">
 					<div class="card-block">
-					<h3 class="card-title">Hindi/Sanskrit</h3>
+					<h3 class="card-title text-center">Hindi/Sanskrit</h3>
 					<p class="card-text">
 						<div id="video-list">
 							<ul class="item-list" data-bind="foreach: videosList">
 								<div data-bind="if: language === 'Sanskrit' || language === 'Hindi'">
-									<li data-bind="click: $parent.setSelectedVideo,text: title" data-toggle="modal" data-target="#trailer"></li>
+									<li class="video-list-item" data-bind="click: $parent.setSelectedVideo,text: title" data-toggle="modal" data-target="#trailer"></li>
 								</div>	
 							</ul>
 						</div>
@@ -67,15 +66,14 @@
 				</div>
 			</div>
 			<div class="col-sm-3">
-				<div class="card">
-					<img class="card-img-top" src="static/music-notes.jpg" alt="Card image cap">
+				<div class="card  video-list-container">
 					<div class="card-block">
-					<h3 class="card-title">Tamil</h3>
+					<h3 class="card-title text-center">Tamil</h3>
 					<p class="card-text">
 						<div id="video-list">
 							<ul class="item-list" data-bind="foreach: videosList">
 								<div data-bind="if: language === 'Tamil'">
-									<li data-bind="click: $parent.setSelectedVideo,text: title" data-toggle="modal" data-target="#trailer"></li>
+									<li class="video-list-item" data-bind="click: $parent.setSelectedVideo,text: title" data-toggle="modal" data-target="#trailer"></li>
 								</div>	
 							</ul>
 						</div>
@@ -84,15 +82,14 @@
 				</div>
 			</div>
 			<div class="col-sm-3">
-				<div class="card">
-					<img class="card-img-top" src="static/music-notes.jpg" alt="Card image cap">
+				<div class="card video-list-container">
 					<div class="card-block">
-					<h3 class="card-title">Telugu</h3>
+					<h3 class="card-title text-center">Telugu</h3>
 					<p class="card-text">
 						<div id="video-list">
 							<ul class="item-list" data-bind="foreach: videosList">
 								<div data-bind="if: language === 'Telugu'">
-									<li data-bind="click: $parent.setSelectedVideo,text: title" data-toggle="modal" data-target="#trailer"></li>
+									<li class="video-list-item" data-bind="click: $parent.setSelectedVideo,text: title" data-toggle="modal" data-target="#trailer"></li>
 								</div>	
 							</ul>
 						</div>
@@ -101,15 +98,14 @@
 				</div>
 			</div>
 			<div class="col-sm-3">
-				<div class="card">
-					<img class="card-img-top" src="static/music-notes.jpg" alt="Card image cap">
+				<div class="card video-list-container">
 					<div class="card-block">
-					<h3 class="card-title">Kannada</h3>
+					<h3 class="card-title text-center">Kannada</h3>
 					<p class="card-text">
 						<div id="video-list">
 							<ul class="item-list" data-bind="foreach: videosList">
 								<div data-bind="if: language === 'Kannada'">
-									<li data-bind="click: $parent.setSelectedVideo,text: title" data-toggle="modal" data-target="#trailer"></li>
+									<li class="video-list-item" data-bind="click: $parent.setSelectedVideo,text: title" data-toggle="modal" data-target="#trailer"></li>
 								</div>	
 							</ul>
 						</div>

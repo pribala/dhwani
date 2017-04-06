@@ -105,16 +105,41 @@ audio:hover, audio:focus, audio:active {
 }
 
 .song-list-item {
-	  cursor: pointer;
+	  cursor: pointer;	  
+}
+
+.song-list-item:hover {
+	background: #00FFFF;
+}
+
+.list-container {
+	background-color: #FDFC87;
+	border: 1px solid #01008A;
+	margin-left: -35px;
+}
+
+.video-list-container {
+	background-color: #FDFC87;
+	border: 1px solid #01008A;
 }
 
 select {
-	background-color: #F1E05A;
+	background-color: #17C2BC;
 	border:  1px solid #01008A;
 	height: 40px;
 	font-size: 18px;
 	margin-top: 15px;
+	line-height: 35px;
 }
 .active {
 	background-color: #00FFFF;
+}
+
+.filter-container {
+	display: flex;
+	justify-content: center;
+}
+
+.video-list-item {
+	cursor: pointer;
 }
