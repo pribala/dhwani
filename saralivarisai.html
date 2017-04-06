@@ -56,8 +56,11 @@
 					<p class="card-text">
 						<div id="song-list">
 						<ul class="item-list" data-bind="foreach: songList">
-							<li class="song-list-item" data-bind="click: $parent.setSelectedSong,text: title"></li>
+							<li class="song-list-item" data-bind="visible: showVarisai,click: $parent.setSelectedSong,text: title"></li>
 						</ul>
+						</div>
+						<div class="item-list">
+							<select data-bind="options: varisaiType, optionsCaption: 'Filter your search:', value: selectedType"></select>
 						</div>	
 					</p>
 					</div>

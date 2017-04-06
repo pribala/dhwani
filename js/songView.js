@@ -5,6 +5,8 @@ var Song = function(data) {
 	this.title = ko.observable(data.title);
 	this.lines = data.lines;
 	this.audioSrc = data.audioSrc;
+	this.type = data.type;
+	this.showVarisai = ko.observable(true);
 };
 
 var Geetham = function(data) {
@@ -46,6 +48,23 @@ var ViewModel = function(){
 	this.setSelectedSong = function(currentsong) {
 		self.currentSong(currentsong);
 	};
+	// Define a filter option for the varisai list.
+	// Show and hide the varisais based on the filter.
+	this.varisaiType = ko.observableArray([]);
+	varisaiFilter.forEach(function(filterOption) {
+		self.varisaiType.push(filterOption);
+	});
+	this.selectedType = ko.observable(self.varisaiType()[0]);
+	this.subsetVarisai = ko.computed(function() {
+		var varisaiList = self.songList();
+		for(var i=0;i<varisaiList.length;i++) {
+			if(self.selectedType() !== varisaiList[i].type){
+				varisaiList[i].showVarisai(false);
+			} else {
+				varisaiList[i].showVarisai(true);
+			}
+		}
+	});
 	this.geethamList = ko.observableArray([]);
 	geethams.forEach(function(geetham) {
 		self.geethamList.push(new Geetham(geetham));
@@ -74,7 +93,7 @@ var ViewModel = function(){
 		self.currentBhajan(currentbhajan);
 	};
 	// Define a filter option for the bhajan list.
-	// Show and hide the location and its marker based on the filter.
+	// Show and hide the bhajans based on the filter.
 	this.optionList = ko.observableArray([]);
 	filters.forEach(function(filterOption) {
 		self.optionList.push(filterOption);
