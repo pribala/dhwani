@@ -55,7 +55,7 @@ var bhajans = [
 	{title: 'Hari Hari Rama Naama', fileSrc: 'static/harihari.pdf', language: 'Telugu', audioSrc:''},
 	{title: 'Govardhana Giridhari', fileSrc: 'static/govardhana.pdf', language: 'Sanskrit', audioSrc:''},
 	{title: 'Bhagyada Lakshmi Baramma', fileSrc: 'static/bhagyadalakshmi.pdf', language: 'Kannada', audioSrc:''},
-	{title: 'Shree Kamakshi', fileSrc: 'static/shreekamakshi.pdf', language: 'Sanskrit', audioSrc:''},
+	{title: 'Shree Kamakshi', fileSrc: 'static/ShreeKamakshi.pdf', language: 'Sanskrit', audioSrc:'static/ShreeKamakshi.wav'},
 	{title: 'Seetha Kalyana Vaibhogame', fileSrc: 'static/seethakalyana.pdf', language: 'Tamil', audioSrc:''},
 	{title: 'Ye Theruga Nanu Dayachusedavo', fileSrc: 'static/yetheruga.pdf', language: 'Telugu', audioSrc:''},
 ];
