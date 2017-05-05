@@ -57,7 +57,7 @@ var bhajans = [
 	{title: 'Bhagyada Lakshmi Baramma', fileSrc: 'static/bhagyadalakshmi.pdf', language: 'Kannada', audioSrc:''},
 	{title: 'Shree Kamakshi', fileSrc: 'static/ShreeKamakshi.pdf', language: 'Sanskrit', audioSrc:'static/ShreeKamakshi.wav'},
 	{title: 'Seetha Kalyana Vaibhogame', fileSrc: 'static/seethakalyana.pdf', language: 'Tamil', audioSrc:''},
-	{title: 'Ye Theruga Nanu Dayachusedavo', fileSrc: 'static/yetheruga.pdf', language: 'Telugu', audioSrc:''},
+	{title: 'Ye Theruga Nanu Dayachusedavo', fileSrc: 'static/YeTheeruga.pdf', language: 'Telugu', audioSrc:'static/YeTheeruga.wav'},
 ];
 
 var alankarams = [
