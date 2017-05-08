@@ -27,8 +27,8 @@ var saraliVarisais = [
 	];
 	
 var geethams = [
-	{title: 'Lambodhara Lakumikara', fileSrc: 'lambodara.html', audioSrc: 'static/lambodara.wav'},
-	{title: 'Mandara (kundagowra)', fileSrc: 'mandara.html', audioSrc: 'static/mandara.wav'},
+	{title: 'Lambodhara Lakumikara', fileSrc: 'geethams/lambodara.html', audioSrc: 'static/lambodara.wav'},
+	{title: 'Mandara (kundagowra)', fileSrc: 'geethams/mandara.html', audioSrc: 'static/mandara.wav'},
 	{title: 'Vara Veena', fileSrc: 'geethams/varaveena.html', audioSrc: 'static/varaveena.wav'},
 ];	
 
