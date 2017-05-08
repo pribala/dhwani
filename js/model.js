@@ -23,16 +23,13 @@ var saraliVarisais = [
 		{title: 'Varisai 5', fileSrc: 'jantai5.html', audioSrc: "static/jantai5.wav", type: 'Jantai varisai'},
 		{title: 'Varisai 6', fileSrc: 'jantai6.html', audioSrc: "static/jantai6.wav", type: 'Jantai varisai'},
 		{title: 'Varisai 7', fileSrc: 'jantai7.html', audioSrc: "static/jantai7.wav", type: 'Jantai varisai'},
-		{title: 'Varisai 8', fileSrc: 'jantai8.html', audioSrc: "static/jantai8.wav", type: 'Jantai varisai'},
-		{title: 'Varisai 9', fileSrc: 'jantai9.html', audioSrc: "static/jantai9.wav", type: 'Jantai varisai'},
-		{title: 'Varisai 10', fileSrc: 'jantai10.html', audioSrc: "static/jantai10.wav", type: 'Jantai varisai'},
-		{title: 'Varisai 11', fileSrc: 'jantai11.html', audioSrc: "static/jantai11.wav", type: 'Jantai varisai'},
-		{title: 'Varisai 12', fileSrc: 'jantai12.html', audioSrc: "static/jantai12.wav", type: 'Jantai varisai'},
+		{title: 'Varisai 8', fileSrc: 'jantai8.html', audioSrc: "static/jantai8.wav", type: 'Jantai varisai'}
 	];
 	
 var geethams = [
 	{title: 'Lambodhara Lakumikara', fileSrc: 'lambodara.html', audioSrc: 'static/lambodara.wav'},
 	{title: 'Mandara (kundagowra)', fileSrc: 'mandara.html', audioSrc: 'static/mandara.wav'},
+	{title: 'Vara Veena', fileSrc: 'geethams/varaveena.html', audioSrc: 'static/varaveena.wav'},
 ];	
 
 var videos = [
