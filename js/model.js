@@ -23,7 +23,9 @@ var saraliVarisais = [
 		{title: 'Varisai 5', fileSrc: 'jantai/jantai5.html', audioSrc: "static/jantai5.wav", type: 'Jantai varisai'},
 		{title: 'Varisai 6', fileSrc: 'jantai/jantai6.html', audioSrc: "static/jantai6.wav", type: 'Jantai varisai'},
 		{title: 'Varisai 7', fileSrc: 'jantai/jantai7.html', audioSrc: "static/jantai7.wav", type: 'Jantai varisai'},
-		{title: 'Varisai 8', fileSrc: 'jantai/jantai8.html', audioSrc: "static/jantai8.wav", type: 'Jantai varisai'}
+		{title: 'Varisai 8', fileSrc: 'jantai/jantai8.html', audioSrc: "static/jantai8.wav", type: 'Jantai varisai'},
+		{title: 'Varisai 1', fileSrc: 'taatu/taatu1.html', audioSrc: "static/taatu1.wav", type: 'Taatu varisai'},
+		{title: 'Varisai 2', fileSrc: 'taatu/taatu2.html', audioSrc: "static/taatu2.wav", type: 'Taatu varisai'},
 	];
 	
 var geethams = [
@@ -64,9 +66,7 @@ var alankarams = [
 {title: 'Mishra Jaati Jhampa Taalam', fileSrc: 'jhampa.html', audioSrc: 'static/jhampa.wav'},
 {title: 'Tishra Jaati Triputa Taalam', fileSrc: 'triputa.html', audioSrc: 'static/triputa.wav'},
 {title: 'Khanda Jaati Ata Taalam', fileSrc: 'ata.html', audioSrc: 'static/ata.wav'},
-{title: 'Chaturashra Jaati Eka Taalam', fileSrc: 'eka.html', audioSrc: 'static/eka.wav'},
-{title: 'Sankeerna Jaati Eka Taalam: Version 1', fileSrc: 'sankeerna1.html', audioSrc: 'static/sankeerna1.wav'},
-{title: 'Sankeerna Jaati Eka Taalam: Version 2', fileSrc: 'sankeerna2.html', audioSrc: 'static/sankeerna2.wav'},
+{title: 'Chaturashra Jaati Eka Taalam', fileSrc: 'eka.html', audioSrc: 'static/eka.wav'}
 ];
 
 
