@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags always come first -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<title>Dhwani</title>
+	</head>
+	<body>
+		<header class="row main-header">
+			<div class="col-md-12 text-center">
+				<h1>Dhwani - The Sound of Music</h1>
+			</div>	
+		</header>
+		<!-- Nav bar with navigation options for the site -->
+		<nav class="navbar navbar-dark bg-inverse">
+			<a class="navbar-brand" href="#"><img class="logo" src="static/clef.jpg" alt="Logo - treble clef"></a>
+			<ul class="nav navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="saralivarisai.html">Swaravali</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="alankaram.html">Alankaram</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="geetham.html">Geetham</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="bhajans.html">Bhajans</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="videos.html">Videos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" target="_blank" href="static/worksheets.pdf">Printables</a>
+				</li>
+			</ul>
+			<form action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)" class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<input name="q" type="hidden" />
+					<input name="qfront" class="form-control" type="text" placeholder="Search">
+				</div>
+				<button class="btn btn-warning-outline btn-position" type="submit">Search</button>
+			</form>
+		</nav>
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="static/music-notes.jpg" alt="Card image cap">
+					<div class="card-block">
+					<h3 class="card-title title-style">Swaravali</h3>
+					<p class="card-text">Swarāvali are exercises with different arrangements of swarams. It is shortened and referred as Sarali.</p>
+					<a href="saralivarisai.html" class="btn btn-primary">Begin Learning</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="static/music-notes.jpg" alt="Card image cap">
+					<div class="card-block">
+					<h3 class="card-title title-style">Geetham</h3>
+					<p class="card-text">Geetham means song or melody. Geethams are the first songs that are learnt. 
+					They are very short and are the first exercises where singing lyrics along with their swaram patterns are learnt.</p>
+					<a href="geetham.html" class="btn btn-primary">Begin Learning</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="static/music-notes.jpg" alt="Card image cap">
+					<div class="card-block">
+					<h3 class="card-title title-style">Bhajans</h3>
+					<p class="card-text">A Bhajan is any type of devotional song. It has no fixed form. It may be as simple as a mantra or 
+					kirtan or as sophisticated as the dhrupad or kriti with music based on classical ragas and talas.</p>
+					<a href="bhajans.html" class="btn btn-primary">Begin Learning</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+
+	// Google Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
+	// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+	// This notice must stay intact for use
+
+	//Enter domain of site to search.
+	var domainroot="http://localhost:8080/"
+
+	function Gsitesearch(curobj){
+	curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
+	}
+
+	</script>
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>	
