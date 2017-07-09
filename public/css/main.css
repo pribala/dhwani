@@ -1,0 +1,169 @@
+.main-header {
+	background-color: #F1E05A;
+}
+
+h1 {
+	color: #01008A;
+}
+
+body {
+	color: #01008A;
+	font-size: 15px;
+}
+
+.container-nav {
+	background-color: #17C2BC;
+} 
+
+.navbar {
+	background-color: #17C2BC;
+	border-radius: none;
+}
+
+.card-img-top {
+	width: 50%;
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.card-text {
+	font-size: 18px;
+	color: #01008A;
+}
+
+.card-title {
+	color: #E42B4E;
+	margin-top: 0;
+	padding-top: 5px;
+}
+
+.nav-link {
+	color: #01008A;
+	font-size: 20px;
+}
+
+.logo {
+	width:  40px;
+	height:40px;
+	margin-right: 35px;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+.btn-position {
+	margin-right: 10px;
+}
+
+.item-list {
+	font-size: 18px;
+	line-height: 35px;
+}
+
+.item-content {
+	font-size: 30px;
+	letter-spacing: 18px;
+}
+
+.audio-btn {
+	background-color: #17C2BC;
+	color: #01008A; 
+}
+
+.song-window {
+	margin: 0;
+	padding: 15px 10px 10px 25px;
+	width: 100%;
+	height: auto;
+	overflow: scroll;
+}
+
+.song-lyrics {
+	font-size: 20px;
+}
+
+.song-section {
+	font-size: 20px;
+	color: #E42B4E;
+}
+
+audio {
+	-moz-box-shadow: 2px 2px 4px 0px #006773;
+	-webkit-box-shadow:  2px 2px 4px 0px #006773;
+	box-shadow: 2px 2px 4px 0px #006773;
+	-moz-border-radius:7px 7px 7px 7px;
+	-webkit-border-radius:7px 7px 7px 7px;
+	border-radius:7px 7px 7px 7px;
+	margin: 20px 0 0 0;
+}
+
+audio:hover, audio:focus, audio:active {
+	-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.card-content {
+	border-left: 1px solid;
+}
+
+.song-list-item {
+	  cursor: pointer;	  
+}
+
+.song-list-item:hover {
+	background: #00FFFF;
+}
+
+.list-container {
+	background-color: #FDFC87;
+	border: 1px solid #01008A;
+	margin-left: -35px;
+}
+
+.video-list-container {
+	background-color: #FDFC87;
+	border: 1px solid #01008A;
+}
+
+select {
+	background-color: #17C2BC;
+	border:  1px solid #01008A;
+	height: 40px;
+	font-size: 18px;
+	margin-top: 15px;
+	line-height: 35px;
+}
+.active {
+	background-color: #00FFFF;
+}
+
+.filter-container {
+	display: flex;
+	justify-content: center;
+}
+
+.video-list-item {
+	cursor: pointer;
+}
+
+.title-style {
+	background-color: #FDFC87;
+	padding: 5px;
+}
+
+.jantai-varisai p {
+	font-size: 30px;
+	letter-spacing: 12px;
+}
+
+.alankaram-14-beat p {
+	font-size: 30px;
+	letter-spacing: 8px;
+}	
+.talam-heading {
+	font-size: 25px;
+}	
