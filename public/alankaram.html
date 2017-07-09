@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags always come first -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<title>Dhwani</title>
+	</head>
+	<body>
+		<header class="row main-header">
+			<div class="col-md-12 text-center">
+				<h1>Dhwani - The Sound of Music</h1>
+			</div>	
+		</header>
+		<div class="container-nav">
+		<nav class="navbar navbar-dark bg-inverse">
+			<a class="navbar-brand" href="#"><img class="logo" src="static/clef.png"></a>
+			<ul class="nav navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="saralivarisai.html">Swaravali</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="alankaram.html">Alankaram<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="geetham.html">Geetham</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="bhajans.html">Bhajans</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="videos.html">Videos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="static/worksheets.pdf">Printables</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+			</ul>
+			<form class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<input class="form-control" type="text" placeholder="Search">
+				</div>
+				<button class="btn btn-warning-outline btn-position" type="submit">Search</button>
+			</form>
+		</nav>
+		</div>
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-4 list-container">
+				<div class="card">
+					<div class="card-block">
+					<h3 class="card-title text-center">Alankaram</h3>
+					<p class="card-text">
+						<div id="song-list">
+						<ul class="item-list" data-bind="foreach: alankaramList">
+							<li class="song-list-item" data-bind="click: $parent.setSelectedAlankaram,text: title"></li>
+						</ul>
+						</div>	
+					</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div data-bind="with: currentAlankaram">
+					<div class="card">
+					<div class="card-block">
+					<h3 class="card-title title-style" data-bind="text: title"></h3>
+					<p id="song-text" class="card-text item-content">
+						<iframe class="song-window" src="" alt="Song lyrics" data-bind="attr: {src: fileSrc}"></iframe>
+					</p>
+					</div class="audio-btn">
+						<audio controls preload="metadata">
+							<source src="" type="audio/WAV">
+							Your browser does not support the audio element.
+						</audio>
+					</div>
+					</div>
+				</div>
+			</div>	
+	</div>
+	<!-- jQuery first, then Bootstrap JS. -->
+	<script src="js/lib/knockout-3.4.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/model.js"></script>
+	<script src="js/songView.js"></script>
+	</body>
+</html>	

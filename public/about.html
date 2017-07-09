@@ -16,6 +16,7 @@
 			</div>	
 		</header>
 		<!-- Nav bar with navigation options for the site -->
+		<div class="container-nav">
 		<nav class="navbar navbar-dark bg-inverse">
 			<a class="navbar-brand" href="#"><img class="logo" src="static/clef.jpg" alt="Logo - treble clef"></a>
 			<ul class="nav navbar-nav">
@@ -44,8 +45,15 @@
 					<a class="nav-link" href="about.html">About</a>
 				</li>
 			</ul>
+			<form action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)" class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<input name="q" type="hidden" />
+					<input name="qfront" class="form-control" type="text" placeholder="Search">
+				</div>
+				<button class="btn btn-warning-outline btn-position" type="submit">Search</button>
+			</form>
 		</nav>
-		
+		</div>
 		<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
