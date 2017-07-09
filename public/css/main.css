@@ -51,6 +51,13 @@ body {
 	margin-left: -10px;
 }
 
+.logo[alt="Treble Clef"] {
+	font-size: 11px;
+	color: #01008A;
+	width: 50px;
+	background-color: #EEEEEE;
+}
+
 .btn-position {
 	margin-right: 10px;
 }
