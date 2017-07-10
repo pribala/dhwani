@@ -32,6 +32,7 @@ var geethams = [
 	{title: 'Lambodhara Lakumikara', fileSrc: 'geethams/lambodara.html', audioSrc: 'static/lambodara.wav'},
 	{title: 'Mandara (kundagowra)', fileSrc: 'geethams/mandara.html', audioSrc: 'static/mandara.wav'},
 	{title: 'Vara Veena', fileSrc: 'geethams/varaveena.html', audioSrc: 'static/varaveena.wav'},
+	{title: 'Hamsadhwani- Swarapallavi', fileSrc: 'geethams/hamsadhwani.html', audioSrc:'static/Hamsadhwani.wav'},
 ];	
 
 var videos = [
@@ -48,15 +49,18 @@ var videos = [
 ];
 
 var bhajans = [
-	{title: 'Paluke Bangaramayena', fileSrc: 'static/paluke.pdf', language: 'Telugu', audioSrc:''},
-	{title: 'Sri Ramachandra Kripalu', fileSrc: 'static/shriram.pdf', language: 'Sanskrit', audioSrc:''},
-	{title: 'Bhaja Govindam', fileSrc: 'static/bhajagovindam.pdf', language: 'Sanskrit', audioSrc:''},
-	{title: 'Hari Hari Rama Naama', fileSrc: 'static/harihari.pdf', language: 'Telugu', audioSrc:''},
-	{title: 'Govardhana Giridhari', fileSrc: 'static/govardhana.pdf', language: 'Sanskrit', audioSrc:''},
-	{title: 'Bhagyada Lakshmi Baramma', fileSrc: 'static/bhagyadalakshmi.pdf', language: 'Kannada', audioSrc:''},
-	{title: 'Shree Kamakshi', fileSrc: 'static/ShreeKamakshi.pdf', language: 'Sanskrit', audioSrc:'static/ShreeKamakshi.wav'},
-	{title: 'Seetha Kalyana Vaibhogame', fileSrc: 'static/seethakalyana.pdf', language: 'Tamil', audioSrc:''},
-	{title: 'Ye Theruga Nanu Dayachusedavo', fileSrc: 'static/YeTheeruga.pdf', language: 'Telugu', audioSrc:'static/YeTheeruga.wav'},
+	{title: 'Paluke Bangaramayena', fileSrc: 'bhajans/paluke.html', language: 'Telugu', audioSrc:''},
+	{title: 'Sri Ramachandra Kripalu', fileSrc: 'bhajans/shriram.html', language: 'Sanskrit', audioSrc:''},
+	{title: 'Bhaja Govindam', fileSrc: 'bhajans/bhajagovindam.html', language: 'Sanskrit', audioSrc:''},
+	{title: 'Hari Hari Rama Naama', fileSrc: 'bhajans/harihari.html', language: 'Telugu', audioSrc:''},
+	{title: 'Govardhana Giridhari', fileSrc: 'bhajans/govardhana.html', language: 'Sanskrit', audioSrc:''},
+	{title: 'Bhagyada Lakshmi Baramma', fileSrc: 'bhajans/bhagyadalakshmi.html', language: 'Kannada', audioSrc:''},
+	{title: 'Shree Kamakshi', fileSrc: 'bhajans/ShreeKamakshi.html', language: 'Sanskrit', audioSrc:'static/ShreeKamakshi.wav'},
+	{title: 'Seetha Kalyana Vaibhogame', fileSrc: 'bhajans/seethakalyana.html', language: 'Tamil', audioSrc:''},
+	{title: 'Ye Theruga Nanu Dayachusedavo', fileSrc: 'bhajans/YeTheeruga.html', language: 'Telugu', audioSrc:'static/YeTheeruga.wav'},
+	{title: 'Varde Veena Vadini', fileSrc: 'bhajans/vardeveena.html', language: 'Sanskrit', audioSrc:'static/VardeVeena.wav'},
+	{title: 'Brahmam Okate', fileSrc: 'bhajans/brahmamokate.html', language: 'Telugu', audioSrc:'static/BrahmamOkate.wav'},
+	{title: 'Darashan Dejo Aaj', fileSrc: 'bhajans/darashandejo.html', language: 'Hindi', audioSrc:'static/DarashanDejo.wav'},
 ];
 
 var alankarams = [
